@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/:protocal*/:match/:url*", "destination": ":protocal*://:match/:url*" }
+    { "source": "/:match*", "destination": "https://github.com/:match*" }
   ]
 }
